@@ -41,7 +41,7 @@
                         <div class="flex flex-wrap card-actions justify-center">
                             <button class="btn btn-primary w-full text-xl">Sign Up</button>
                             <button class="btn btn-link w-full">Already have account?</button>
-                            <button class="btn btn-secondary text-xl w-1/2">Login</button>
+                            <button class="btn btn-warning text-xl w-1/2" href="{{ url('/login') }}">Login</button>
                         </div>
                     </div>
                 </div>

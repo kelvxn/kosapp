@@ -33,10 +33,10 @@ Route::get('/layout', function () {
     return view('components.layout');
 });
 
-Route::get('/login', function () {
+Route::get('/login/', function () {
     return view('login');
 });
 
-Route::get('/signup', function () {
+Route::get('/signup/', function () {
     return view('signup');
 });
