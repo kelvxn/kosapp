@@ -6,17 +6,16 @@ use App\Models\Products;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class locations extends Model
+class type_rooms extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'city',
-        'district'
+        'type_rooms'
     ];
 
     public $timestamps = false;
-
+    
     public function products()
     {
         return $this->hasMany(Products::class);
