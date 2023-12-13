@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('homelkeqiogeoignwkqnpnq4onnhmqa[jhomad');
 });
 
 Route::get('/about', function () {
