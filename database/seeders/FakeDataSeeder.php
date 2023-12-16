@@ -21,6 +21,9 @@ class FakeDataSeeder extends Seeder
         $admin = User::factory()->create([
             'email' => 'admin@kosapp.com',
             'name' => 'Admin',
+            'email_verified_at' => now(),
+            'phone_number' => '08123456789',
+            'password' => bcrypt('admin'),
             'role' => 'admin',
         ]);
 
